@@ -252,7 +252,7 @@ public class PatternAssignment {
             System.out.println();
         }
         for (int i = 1; i <= n; i++) {
-            for (int k = 1; k <= i; k++) {
+            for (int k = 2; k <= i; k++) {
                 System.out.print(" ");
             }
             for (int j = 1; j <= i; j++) {
@@ -263,46 +263,45 @@ public class PatternAssignment {
 
         System.out.println();
 
-        
-         // Question 17
-         int s = 7;
+        // Question 17
+        int s = 7;
         System.out.println("Question 17");
-        for (int i = s-4; i >= 1; i--) {
+        for (int i = s - 4; i >= 1; i--) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
             }
-            for (int k = 1; k <= (s-i-3); k++) {
+            for (int k = 1; k <= (s - i - 3); k++) {
                 System.out.print("  ");
             }
-            for (int k = 1; k <= (s-i-3); k++) {
+            for (int k = 1; k <= (s - i - 3); k++) {
                 System.out.print("  ");
             }
-            for(int j = 1 ; j <= i ; j++){
+            for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
             }
             System.out.println();
         }
         System.out.println();
-        
-        for (int i = 1; i <= s-4; i++) {
+
+        for (int i = 1; i <= s - 4; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
             }
-            for (int k = 1; k <= (s - i-3); k++) {
+            for (int k = 1; k <= (s - i - 3); k++) {
                 System.out.print("  ");
             }
-            for (int k = 1; k <= (s - i-3); k++) {
+            for (int k = 1; k <= (s - i - 3); k++) {
                 System.out.print("  ");
             }
             for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
             }
             System.out.println();
-        } 
+        }
 
         // Question 18
         System.out.println("Question 18");
-        for (int i = 1; i <= s-4; i++) {
+        for (int i = 1; i <= s - 4; i++) {
             for (int k = 1; k <= (s - i); k++) {
                 System.out.print("  ");
             }
@@ -314,7 +313,7 @@ public class PatternAssignment {
             }
             System.out.println();
         }
-        for (int i = s-3; i >= 1; i--) {
+        for (int i = s - 3; i >= 1; i--) {
             for (int k = 1; k <= (s - i); k++) {
                 System.out.print("  ");
             }
@@ -329,6 +328,215 @@ public class PatternAssignment {
 
         System.out.println();
 
+        // Question 19
+        System.out.println("Question 19");
+        System.out.println("Not solved");
+        for (int i = s - 3; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            for (int k = 1; k <= (s - i - 3); k++) {
+                System.out.print("  ");
+            }
+            for (int k = 1; k <= (s - i - 3); k++) {
+                System.out.print("  ");
+            }
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        for (int i = 2; i <= s - 3; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            for (int k = 1; k <= (s - i - 3); k++) {
+                System.out.print("  ");
+            }
+            for (int k = 1; k <= (s - i - 3); k++) {
+                System.out.print("  ");
+            }
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        // Question 20
+        System.out.println("Question 20");
+        for (int i = s - 3; i >= 1; i--) {
+            for (int j = 1; j <= s; j++) {
+                if (i == j || (i + j) == s + 1) {
+                    System.out.print("* ");
+
+                } else {
+                    System.out.print("  ");
+
+                }
+
+            }
+            System.out.println();
+        }
+
+        for (int i = 2; i <= s - 3; i++) {
+            for (int j = 1; j <= s; j++) {
+                if (i == j || (i + j) == s + 1) {
+                    System.out.print("* ");
+
+                } else {
+                    System.out.print("  ");
+
+                }
+
+            }
+            System.out.println();
+
+        }
         
+        System.out.println();
+
+        // Question 21
+        System.out.println("Question 21");
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            for (int k = 1; k <= (n - i -1); k++) {
+                System.out.print("  ");
+            }
+            for (int k = 1; k <= (n-i); k++) {
+                System.out.print("  ");
+            }
+            for (int j = 1 ; j <= i && j<n; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        // Question 22
+        System.out.println("Question 22");
+        for (int i = n; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            for (int k = 1; k <= (n - i-1); k++) {
+                System.out.print("  ");
+            }
+            for (int k = 1; k <= (n - i); k++) {
+                System.out.print("  ");
+            }
+            for (int j = 1; j <= i && j<n; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+        
+        // Question 23
+        System.out.println("Question 23");
+        for (int i = 1; i <= n; i++) {
+            for (int k = 1; k <= (n - i); k++) {
+                System.out.print("  ");
+            }
+            for (int j = 1; j <= i; j++) {
+                System.out.print("1 ");
+            }
+            for (int j = 1; j <= i - 1; j++) {
+                System.out.print("1 ");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        // Question 24
+        System.out.println("Question 24");
+        for (int i = 1; i <= n; i++) {
+            for (int k = 1; k <= (n - i); k++) {
+                System.out.print("  ");
+            }
+            for (int j = 1; j <= i; j++) {
+                System.out.print(i + " ");
+            }
+            for (int j = 1; j <= i - 1; j++) {
+                System.out.print(i+ " ");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        // Question 25
+        System.out.println("Question 25");
+        int count = 1;
+        for (int i = 1; i <= n; i++) {
+            for (int k = 1; k <= (n - i); k++) {
+                System.out.print("   ");
+            }
+            
+            for (int j = 1; j <= i; j++) {
+                if(count <10){
+                System.out.print(count + "  ");
+                }
+                else{
+                    System.out.print(count + " ");
+                }
+                count++;
+            }
+           
+            for (int j = 1; j <= i - 1; j++) {
+                if(count <10){
+                    System.out.print(count + "  ");
+                    }
+                    else{
+                        System.out.print(count + " ");
+                    }
+
+                count++;
+            }
+            System.out.println();
+            
+        }
+
+        System.out.println();
+
+         // Question 26
+         System.out.println("Question 26");
+         for (int i = 1; i <= n; i++) {
+             for (int k = 1; k <= (n - i); k++) {
+                 System.out.print("  ");
+             }
+             for (int j = 1; j <= 2*i-1; j++) {
+                 System.out.print(j + " ");
+             }
+             
+             System.out.println();
+         }
+ 
+         System.out.println();
+
+         // Question 27
+         System.out.println("Question 27");
+         int c = 1;
+         for (int i = 1; i <= n; i++) {
+            for (int k = 1; k <= (n - i); k++) {
+                System.out.print("  ");
+            }
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j + " ");
+                
+            }for(int j = i-1 ; j >= 1 ; j--){
+                System.out.print(j +" ");
+            }
+            
+            System.out.println();
+        }
+
+        System.out.println();
     }
 }

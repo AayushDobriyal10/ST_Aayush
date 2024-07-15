@@ -338,10 +338,10 @@ public class PatternAssignment {
             for (int k = 1; k <= (s - i - 3); k++) {
                 System.out.print("  ");
             }
-            for (int k = 1; k <= (s - i - 3); k++) {
+            for (int k = 1; k <= (s - i - 4); k++) {
                 System.out.print("  ");
             }
-            for (int j = 1; j <= i; j++) {
+            for (int j = 1; j <= i ; j++) {
                 System.out.print("* ");
             }
             System.out.println();
@@ -353,7 +353,7 @@ public class PatternAssignment {
             for (int k = 1; k <= (s - i - 3); k++) {
                 System.out.print("  ");
             }
-            for (int k = 1; k <= (s - i - 3); k++) {
+            for (int k = 1; k <= (s - i - 4); k++) {
                 System.out.print("  ");
             }
             for (int j = 1; j <= i; j++) {

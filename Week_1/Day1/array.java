@@ -1,5 +1,3 @@
-package Day3;
-
 public class array {
     //display array
     public static void displayArray(int[] arr){
@@ -80,6 +78,5 @@ public class array {
          System.out.println(character);
         System.out.println(n);
         // explicit type casting
-
-    }
+}
 }

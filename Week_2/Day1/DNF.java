@@ -1,4 +1,4 @@
-package Week_1.Day5;
+package Week_2.Day1;
 
 public class DNF {
     public static void swap(int[] arr , int i , int j){

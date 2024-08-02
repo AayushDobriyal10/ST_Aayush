@@ -23,4 +23,11 @@ public class Student {
         this.year = year;
 
     }
+    int getBranchCode(){
+        return this.branch_code;
+    }
+    void setBranchCode(int code){
+        this.branch_code = code;
+    }
+
 }

@@ -7,7 +7,7 @@ public class OOPS {
         System.out.println(s.name);
         System.out.println(s.semester);
         System.out.println(s.year);
-        System.out.println(s.branch_code);
+        System.out.println(s.branches.branches[s.branch_code]);
     }
     
     public static void main(String[] args) {

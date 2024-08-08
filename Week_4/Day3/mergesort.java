@@ -26,7 +26,7 @@ public class mergesort {
             j--;
         }
         for (i = low; i <= high; i++) {
-            arr[i] = temp[i-low];
+            arr[i] = temp[i - low];
         }
     }
 
@@ -42,8 +42,7 @@ public class mergesort {
     public static void main(String[] args) {
         int[] arr = { 1, 6, 2, 7, 2, 78, 7 };
         int low = 0;
-        int high = arr.length - 1;
-        int mid = high - (high - low) / 2;
+        int high = arr.length - 1; 
         mergeSort(arr, low, high);
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");

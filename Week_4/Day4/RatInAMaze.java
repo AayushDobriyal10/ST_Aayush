@@ -45,5 +45,6 @@ public class RatInAMaze {
                 { '0', '0', '0', 'X', '0' },
         };
         RatIAM(maze, 0, 0, 5, 5);
+        RatIAM(maze2, 0, 0, 5, 5);
     }
 }

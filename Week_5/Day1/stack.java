@@ -25,6 +25,7 @@ public class stack {
         while(!stk.isEmpty()){
             System.out.println(stk.pop());
         }
+        sc.close();
         
     }
 }

@@ -3,7 +3,7 @@ package Week_5.Day1;
 import java.util.Stack;
 
 public class NextGreaterLeft {
-    static int[] nextGreaterRight(int[] arr) {
+    static int[] nextGreaterLeft(int[] arr) {
         int[] ngl = new int[arr.length];
         Stack<Integer> stk = new Stack<>();
         for (int i = arr.length - 1; i >= 0; i--) {
@@ -21,7 +21,7 @@ public class NextGreaterLeft {
 
     public static void main(String[] args) {
         int[] arr = { 7, 3, 4, 5, 9, 2 };
-        int[] nums = nextGreaterRight(arr);
+        int[] nums = nextGreaterLeft(arr);
         for (int i : nums) {
             System.out.print(i + " ");
         }

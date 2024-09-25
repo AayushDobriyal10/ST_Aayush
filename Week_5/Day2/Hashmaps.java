@@ -30,7 +30,7 @@ public class Hashmaps {
         System.out.println(mp.get(3));
 
         // iterate over a map
-        for(Map.Entry m : mp.entrySet()){
+        for(@SuppressWarnings("rawtypes") Map.Entry m : mp.entrySet()){ //quickfix
             System.out.println("Key : " + m.getKey() + " " + "Value : " + m.getValue());
         }
         countHMap(arr);

@@ -10,10 +10,11 @@ public class Implementation {
         // System.out.println(bt.findMax(bt.root));
         // System.out.println(bt.findElement(bt.root,4));
         // System.out.println(bt.treeHeight(bt.root));
-        bt.preOrder(bt.root);
-        System.out.println();
-        bt.inOrder(bt.root);
-        System.out.println();
-        bt.postOrder(bt.root);
+        // bt.preOrder(bt.root);
+        // System.out.println();
+        // bt.inOrder(bt.root);
+        // System.out.println();
+        // bt.postOrder(bt.root);
+        bt.levelOrderTraversal();
     }
 }

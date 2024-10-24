@@ -1,5 +1,7 @@
 package Week_7.Day1;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class BinaryTree {
@@ -108,5 +110,20 @@ public class BinaryTree {
         postOrder(nn.right);
         postOrder(nn.left);
         System.out.print(nn.val + " ");
+    }
+
+    // Level Order Traversal
+    public void levelOrderTraversal() {
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+        while (!q.isEmpty()) {
+            Node rv = q.remove();
+            System.out.println(rv.val + " ");
+            if (rv.left != null)
+                q.add(rv.left);
+            if (rv.right != null)
+                q.add(rv.right);
+        }
+        System.out.println();
     }
 }

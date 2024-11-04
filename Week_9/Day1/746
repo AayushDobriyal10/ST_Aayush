@@ -1,0 +1,13 @@
+class Solution {
+    public int minCostClimbingStairs(int[] cost) {
+        return minRecursive(cost , 0);
+    }
+    public static int minRecursive(int[] cost , int i){
+        if( i >= cost.length) return 0;
+        else{
+            int jump = cost[i] + minRecursive(cost , i+2);
+            int djump = cost[i] + minRecursive(cost , i+1);
+            return Math.min(jump , djump);
+        }
+    }
+}
